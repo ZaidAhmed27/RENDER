@@ -1,0 +1,118 @@
+body {
+  padding: 20px;
+  font: 16px "Helvetica", Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+a {
+  color: #007bff;
+}
+
+.Header {
+  background-color: #007bff;
+  text-align: center;
+  padding: 20px;
+}
+
+.MainTitle {
+  color: white;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav > ul > li {
+  margin: 0 15px;
+  font-size: 18px;
+  color: white;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.IndexTitle, .AboutMain, .TeamMain {
+  text-align: center;
+  color: #007bff;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.IndexPara, .Aboutpara, .Teampara {
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+#table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#table tr:hover {
+  background-color: #f0f0f0;
+}
+
+#table th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary,
+.btn-danger {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.ButtonBack {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.TeamAddbutton {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.Footer {
+  background-color: #007bff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.Footertext {
+  color: white;
+}
